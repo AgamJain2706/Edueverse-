@@ -1,0 +1,85 @@
+:root {
+  /* Recommended font stack */
+  --wix-font-stack: Madefor, 'Helvetica Neue', Helvetica, Arial, 'メイリオ', 'meiryo', 'ヒラギノ角ゴ pro w3', 'hiragino kaku gothic pro', sans-serif;
+  --wix-font-weight-regular: 400;
+  --wix-font-weight-bold: 700;
+  --wix-font-weight-xbold: 800;
+}
+
+/* Madefor */
+@supports (font-variation-settings: normal) {
+  @font-face {
+    font-family: Madefor;
+    font-display: swap;
+    font-weight: 400 800;
+    font-style: normal;
+    src: url(media/WixMadeforTextVF_W_Wght.f678c3db.woff2)
+      format("woff2-variations");
+  }
+
+  @font-face {
+    font-family: Madefor;
+    font-display: swap;
+    font-weight: 400 800;
+    font-style: italic;
+    src: url(media/WixMadeforTextItalicVF_W_Wght.ef0bcc02.woff2)
+      format("woff2-variations");
+  }
+}
+
+/* Madefor - legacy browsers */
+@supports not (font-variation-settings: normal) {
+  @font-face {
+    font-family: Madefor;
+    font-display: swap;
+    font-weight: 400;
+    src: url(media/WixMadeforText_W_Rg.feec33f1.woff2) format("woff2"),
+    url(media/WixMadeforText_W_Rg.13375b26.woff) format("woff");
+  }
+
+  @font-face {
+    font-family: Madefor;
+    font-display: swap;
+    font-weight: 400;
+    font-style: italic;
+    src: url(media/WixMadeforText_W_Rg_It.b70c789f.woff2) format("woff2"),
+    url(media/WixMadeforText_W_Rg_It.a882c171.woff) format("woff");
+  }
+
+  @font-face {
+    font-family: Madefor;
+    font-display: swap;
+    font-weight: 700;
+    src: url(media/WixMadeforText_W_Bd.688a089f.woff2) format("woff2"),
+    url(media/WixMadeforText_W_Bd.b0616c9a.woff) format("woff");
+  }
+
+  @font-face {
+    font-family: Madefor;
+    font-display: swap;
+    font-weight: 700;
+    font-style: italic;
+    src: url(media/WixMadeforText_W_Bd_It.04b14515.woff2) format("woff2"),
+    url(media/WixMadeforText_W_Bd_It.c94c94e9.woff) format("woff");
+  }
+
+  @font-face {
+    font-family: Madefor;
+    font-display: swap;
+    font-weight: 800;
+    src: url(media/WixMadeforText_W_XBd.a7ff15ad.woff2) format("woff2"),
+    url(media/WixMadeforText_W_XBd.b00f0aa1.woff) format("woff");
+  }
+
+  @font-face {
+    font-family: Madefor;
+    font-display: swap;
+    font-weight: 800;
+    font-style: italic;
+    src: url(media/WixMadeforText_W_XBd_It.2af37635.woff2) format("woff2"),
+    url(media/WixMadeforText_W_XBd_It.fab667d9.woff) format("woff");
+  }
+}
+
+
+/*# sourceMappingURL=madefor.css.map*/
